@@ -1,0 +1,36 @@
+ h1 {
+     margin: 0px;
+ }
+ 
+ .table-col1 {
+     width: 100px;
+ }
+ 
+ table.table.table-striped.table-bordered.gaiyou tbody th {
+     width: 20%;
+ }
+ /* p {
+    text-align: left;
+    margin: 0px;
+} */
+ 
+ .hinsitsu p {
+     text-align: left;
+     margin: 10px auto 10px auto;
+     /* width: 79%; */
+     width: 95%;
+ }
+ 
+ .saiyou-p {
+     text-align: left;
+     color: black;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ 
+ .sub-content {
+     text-align: left;
+ }
+ 
+ .block-title {
+     background-color: #2C3A47;
+ }
