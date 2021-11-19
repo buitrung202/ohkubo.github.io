@@ -44,15 +44,14 @@
     }
     
     #slogan {
-        /* position: absolute; */
+        padding-top: 1vh;
         width: 100%;
         text-align: center;
-        font-size: 10.5px;
+        font-size: 1.2vh;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-weight: 2em;
         margin: 0px;
         z-index: 999;
-        color: rgb(17, 74, 231);
+        color: rgb(7 7 8);
     }
     
     .welcome_slide {
@@ -5983,15 +5982,15 @@ tha chu va mau tu tren xuong
     /* logo */
     
     .logo {
-        /* position: absolute; */
         padding-top: 1vh;
         text-align: center;
         background-color: white;
         width: 100%;
+        height: 16vh;
     }
     
     .logo img {
-        width: 60%;
+        width: 55%;
     }
     /* wrap-header-service */
     
@@ -6156,8 +6155,6 @@ tha chu va mau tu tren xuong
     /* menu */
     
     .wrap_menu {
-        /* background-color: #182C61; */
-        /* margin-top: 30%; */
         width: inherit;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }

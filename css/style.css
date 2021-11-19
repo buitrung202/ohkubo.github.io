@@ -2322,7 +2322,7 @@ a (active):    #a67c52 (brown)
     /****** about us container ******/
     
     .story-container {
-        height: 600px;
+        height: 100vh;
         background: url(../images/xbanner-01.jpg.webp);
         background-position: center !important;
         background-repeat: no-repeat !important;
@@ -2844,12 +2844,15 @@ a (active):    #a67c52 (brown)
         margin: 0 !important;
     }
     
-    .classic-portfolio.col-3-portfolio.gallery-portfolio {}
-    
     .col-3-portfolio.gallery-portfolio .project-item {
         width: 33.3333333%;
         padding: 0.7% !important;
         margin: 0 !important;
+    }
+    
+    .project-image .tori-img img {
+        height: 5vh;
+        width: 25vh;
     }
     
     .col-4-portfolio.gallery-portfolio .project-item {
@@ -6843,6 +6846,10 @@ a (active):    #a67c52 (brown)
     p img {
         float: left;
         margin-top: 5px;
+    }
+    
+    #shyachou img {
+        width: 25vh;
     }
     
     .iInfo {
