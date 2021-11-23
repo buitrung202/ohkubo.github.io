@@ -1,5 +1,5 @@
 (function() {
-
+    let slideID = 0;
     $('.container-btn').children().each(function() {
         $(this).click(function() {
 
@@ -25,7 +25,7 @@
     timer();
 
 
-    let slideID = 0;
+
 
 
     /**

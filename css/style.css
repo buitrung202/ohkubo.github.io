@@ -1730,6 +1730,7 @@ a (active):    #a67c52 (brown)
     }
     
     .service-box-sb .service-img {
+        height: 20rem;
         margin-bottom: 20px;
         /* border: solid 1px #f1f1f1; */
         /* border-radius: 2px; */

@@ -5976,7 +5976,7 @@ tha chu va mau tu tren xuong
     
     p {
         text-align: center;
-        font-size: 1.8vh;
+        font-size: 1.5vh;
         color: #ffffff;
     }
     /* logo */
@@ -6471,13 +6471,6 @@ tha chu va mau tu tren xuong
         }
     }
     
-    .bg {
-        background-image: url(../images/okinawashiten.jpg);
-        /* background-position: center bottom; */
-        background-repeat: no-repeat !important;
-        background-size: cover !important;
-    }
-    
     .wrap-ok {
         height: 100vh;
         width: 100%;
@@ -6502,6 +6495,9 @@ tha chu va mau tu tren xuong
     .sv-img a div {
         width: 90%;
         height: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     
     .sv-img {
@@ -6511,7 +6507,48 @@ tha chu va mau tu tren xuong
         text-align: -webkit-center;
         height: 45vh;
         width: 50vh;
+        margin-bottom: 3vh;
     }
+    
+    section.service-text {
+        /* background: rgba(30, 36, 74, 0.13); */
+        background-color: rgb(44, 58, 71);
+    }
+    /* section.service-text div p span img {
+        height: 35vh;
+    } */
+    /* section.service-text div .image-sv {
+      
+        height: 30vh;
+    } */
+    
+    section.service-text div p {
+        /* margin-right: 30px; */
+        /* background-color: #fff; */
+        /* border-radius: 30px; */
+        color: #fff;
+        padding: 15px;
+    }
+    /* section.service-text:nth-child(odd) div p {
+      
+        color: #fff;
+    
+        padding: 15px;
+    } */
+    
+    section.service-text div p span {
+        height: 30vh;
+        width: 30vh;
+    }
+    
+    section.service-text:nth-child(even) div p span img {
+        float: left;
+        margin-right: 30px;
+    }
+    /* section.service-text:nth-child(odd) div p span img {
+        float: right;
+        margin-left: 30px;
+    } */
     
     .footer {
         background-color: #ffffff;
