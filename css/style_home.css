@@ -95,8 +95,7 @@
     /*
     * particle
     */
-    
-    .particle {
+    /* .particle {
         position: absolute;
         width: 40px;
         height: 40px;
@@ -1037,9 +1036,8 @@
         background-color: #eb4747;
         -webkit-animation: particle-animation812 1s ease-in-out 2.6s 1 normal forwards;
         animation: particle-animation812 1s ease-in-out 2.6s 1 normal forwards;
-    }
-    
-    @-webkit-keyframes particle-animation00 {
+    } */
+    /* @-webkit-keyframes particle-animation00 {
         0% {
             left: -140px;
             top: 0;
@@ -4547,12 +4545,11 @@
             opacity: 1;
             transform: scale(0, 0);
         }
-    }
+    } */
     /*
 * background
 */
-    
-    .background {
+    /* .background {
         position: absolute;
         top: 0;
         height: 100vh;
@@ -4560,7 +4557,7 @@
         opacity: 1;
         -webkit-animation: background-animation 2s ease-in-out 4s 1 normal forwards;
         animation: background-animation 2s ease-in-out 4s 1 normal forwards;
-    }
+    } */
     /* .background0 {
    
     left: 0%;
@@ -4588,19 +4585,17 @@
     height: 100vh;
     background-image: url(../images/kisseki/kiseki.jpg);
 } */
-    
-    .background4 {
+    /* .background4 {
         width: 100%;
         height: 100vh;
         background-image: url(../images/xbanner-01.jpg.webp);
         background-repeat: no-repeat;
         background-position: center;
-    }
+    } */
     /*
 * text
 */
-    
-    .text {
+    /* .text {
         position: absolute;
         width: 40px;
         line-height: 40px;
@@ -4725,11 +4720,10 @@
     .text8::after {
         -webkit-animation: text-after-animation8 2s ease-in-out 3s 1 normal forwards;
         animation: text-after-animation8 2s ease-in-out 3s 1 normal forwards;
-    }
+    } */
     /* ********************************************************************* */
     /* tha chu */
-    
-    @-webkit-keyframes text-animation0 {
+    /* @-webkit-keyframes text-animation0 {
         0% {
             transform: scale(0, 0);
             opacity: 0;
@@ -4979,11 +4973,10 @@
             transform: scale(1, 1);
             opacity: 1;
         }
-    }
+    } */
     /* ket thuc tha chu */
     /* ket thuc o vuong mau cho tung chu welcome */
-    
-    @-webkit-keyframes text-after-animation0 {
+    /* @-webkit-keyframes text-after-animation0 {
         0% {
             width: 0px;
             background-color: #eb4747;
@@ -5269,11 +5262,10 @@
             left: 40px;
             opacity: 0;
         }
-    }
+    } */
     /* ket thuc o vuong mau cho tung chu welcome */
     /* keo chu sang ngang */
-    
-    @-webkit-keyframes text2-animation0 {
+    /* @-webkit-keyframes text2-animation0 {
         0% {
             left: -140px;
             opacity: 1;
@@ -5583,14 +5575,13 @@
             left: 220px;
             opacity: 0;
         }
-    }
+    } */
     /* ket thuc keo chu sang ngang */
     /*
 * frame
 tha chu va mau tu tren xuong
 */
-    
-    .frame {
+    /* .frame {
         position: absolute;
         width: 40px;
         height: 40px;
@@ -5668,10 +5659,9 @@ tha chu va mau tu tren xuong
         -webkit-animation: frame-animation8 1s ease-in-out 1600ms 1 normal forwards;
         animation: frame-animation8 1s ease-in-out 1600ms 1 normal forwards;
         background-color: #eb4747;
-    }
+    } */
     /* hieu ung tha chu welcome xuong */
-    
-    @-webkit-keyframes frame-animation0 {
+    /* @-webkit-keyframes frame-animation0 {
         0% {
             transform: translateY(-1000px);
             opacity: 1;
@@ -5921,11 +5911,10 @@ tha chu va mau tu tren xuong
             transform: translateY(0);
             opacity: 0;
         }
-    }
+    } */
     /* ket thuc hieu ung tha chu */
     /*  keo cac anh doc sang ngang */
-    
-    @-webkit-keyframes background-animation {
+    /* @-webkit-keyframes background-animation {
         0% {
             width: 0;
         }
@@ -5952,7 +5941,7 @@ tha chu va mau tu tren xuong
             width: 100%;
         }
     }
-    /* ket thuc keo cac anh doc sang ngang */
+ */
     
     h2 {
         font-size: 1.8vh;
@@ -6029,17 +6018,17 @@ tha chu va mau tu tren xuong
     
     .clm_servicepanel .item:nth-child(2),
     .clm_servicepanel .item.service_01 {
-        background-image: url(../images/kisseki/kiseki.jpg);
+        background-image: url(../images/service_2.jpg);
     }
     
     .clm_servicepanel .item:nth-child(3),
     .clm_servicepanel .item.service_01 {
-        background-image: url(../images/service_2.jpg);
+        background-image: url(../images/jigyou/yukarelaB.jpg);
     }
     
     .clm_servicepanel .item:nth-child(4),
     .clm_servicepanel .item.service_01 {
-        background-image: url(../images/jigyou/yukarelaB.jpg);
+        background-image: url(../images/kisseki/kiseki.jpg);
     }
     
     .clm_servicepanel .item:nth-child(5),
@@ -6049,7 +6038,7 @@ tha chu va mau tu tren xuong
     
     .clm_servicepanel .item:nth-child(6),
     .clm_servicepanel .item.service_01 {
-        background-image: url(../images/service_2.jpg);
+        background-image: url(../images/okinawa/okinawashiten.jpg);
     }
     
     .clm_servicepanel .item {

@@ -5130,6 +5130,9 @@ a (active):    #a67c52 (brown)
             text-align: center;
             padding: 0;
         }
+        iframe {
+            width: -webkit-fill-available;
+        }
     }
     
     @media only screen and (max-width: 768px) {
@@ -6727,8 +6730,7 @@ a (active):    #a67c52 (brown)
         text-transform: uppercase;
         color: #444;
     }
-    
-    .c-brand-container {
+    /* .c-brand-container {
         padding: 0px 0 15px 0;
     }
     
@@ -6810,7 +6812,7 @@ a (active):    #a67c52 (brown)
         background: #fafafa;
         padding: 60px 0 5px 0;
         margin-bottom: 15px
-    }
+    } */
     
     .container-slideclient {
         padding: 0 0 20px 0;
@@ -7007,4 +7009,12 @@ a (active):    #a67c52 (brown)
     
     .project-image p {
         text-align: center;
+    }
+    
+    .pdf-file {
+        height: 80vh;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
     }
